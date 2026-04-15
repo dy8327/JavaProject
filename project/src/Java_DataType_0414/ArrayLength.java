@@ -2,7 +2,7 @@ package Java_DataType_0414;
 
 public class ArrayLength { //배열의 length를 이용한 for문 활용
     public static void main(String[] args) {
-        int[] scores = {83,90,87};
+        int[] scores = {83,90,87}; //앞의 int는 힙 영역에 있는 자료의 타입을 나타낸다.
 
         int sum = 0;
         for(int i=0; i<scores.length;i++){
