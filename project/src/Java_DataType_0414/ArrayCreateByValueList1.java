@@ -2,7 +2,7 @@ package Java_DataType_0414;
 
 public class ArrayCreateByValueList1 { //값 목록으로 배열생성
     public static void main(String[] args) {
-        int[] scores = {83,90,87};
+        int[] scores = {83,90,87}; //array 생성
 
         System.out.println("scores[0]: "+scores[0]);
         System.out.println("scores[1]: "+scores[1]);
