@@ -15,4 +15,4 @@ public class KoreanExample {
     }
     
     
-}
+}//생성자에서 필드 초기화

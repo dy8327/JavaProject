@@ -11,4 +11,4 @@ public class Korean {
         this.name=name;
         this.ssn=ssn;
     }
-}
+}//생성자에서 필드 초기화
