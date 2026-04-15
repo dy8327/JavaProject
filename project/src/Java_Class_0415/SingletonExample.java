@@ -1,0 +1,14 @@
+package Java_Class_0415;
+
+public class SingletonExample { //싱글톤
+    public static void main(String[] args) {
+        Singleton obj1 = Singleton.getInstance(); //new 사용 불가. 컴파일 시 확인 불가하여 에러남
+        Singleton obj2 = Singleton.getInstance();
+
+        if(obj1==obj2){
+            System.out.println("같은 singleton 객체입니다.");
+        }else{
+            System.out.println("다른 singleton객체 입니다.");
+        }
+    }
+}
