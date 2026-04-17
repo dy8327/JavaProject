@@ -1,0 +1,11 @@
+package Java_Class_0417.AbstractClass;
+
+public abstract class Animal {
+    public String kind;
+
+    public void breathe(){
+        System.out.println("숨을 쉽니다.");
+    }
+
+    public abstract void sound(); //함수 정의부(추상메소드)
+}
