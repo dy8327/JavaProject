@@ -23,13 +23,17 @@ public class Java_test_0416 {
 
         // 최대값 탐색
         double max = scores[0];
-        double temp = 0;
-        for (i = 1; i < 10; i++) {
+        /*for (i = 1; i < 10; i++) {
             if (max > scores[i]) {
-                temp = max;
+                continue;
             } else {
                 max = scores[i];
             }
+        }*/
+        for (i = 1; i < 10; i++) {
+            if (max < scores[i]) { //코드 수정완료
+                max = scores[i];
+            } 
         }
         System.out.println("최고점수는 " + max + "점 입니다.");
     }
