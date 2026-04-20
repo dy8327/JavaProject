@@ -4,6 +4,7 @@ public class InstanceofExample {
     public static void method1(Parent parent){
         if(parent instanceof Child){ //instanceof 사용, 유요성 평가. 권장.
             Child child = (Child) parent;
+            System.out.println(child);
             System.out.println("method1 - Child로 변환 성공");
         }else{
             System.out.println("method1 - Child로 변환되지 않음");
@@ -11,6 +12,7 @@ public class InstanceofExample {
     }
     public static void method2(Parent parent){  //강제변환, 권장하지 않음. 
         Child child = (Child) parent;
+        System.out.println(child); //오류로 임시 작성
         System.out.println("method2 - Child로 변환 성공");
     }
 
