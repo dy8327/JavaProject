@@ -4,6 +4,10 @@ public class SmartTelevision implements RemoteControl{
     //필드
     private int volume;
 
+    public int getVolume() {
+        return volume;
+    }
+
     //turnOn 추상메소드의 실체메소드
     public void turnOn(){
         System.out.println("TV를 켭니다.");
