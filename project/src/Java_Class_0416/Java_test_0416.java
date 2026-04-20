@@ -37,4 +37,5 @@ public class Java_test_0416 {
         }
         System.out.println("최고점수는 " + max + "점 입니다.");
     }
+    
 }
