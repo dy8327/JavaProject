@@ -9,6 +9,7 @@ public class ThrowsExample {
         }
     }
     public static void findClass() throws ClassNotFoundException{
-        Class clazz = Class.forName("java.lang.String2");
+       // Class clazz = Class.forName("java.lang.String2"); 예외처리 오류때문에 주석처리해버림
+       
     }
 }
