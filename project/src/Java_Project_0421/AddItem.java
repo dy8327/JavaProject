@@ -8,7 +8,7 @@ public class AddItem implements Manageable{
     private String author;
 
     @Override
-    void addItem(){
+    public void addItem(){
         Scanner scin = new Scanner(System.in);
         System.out.println("[도서 등록]");
         System.out.print("도서 ID: ");
@@ -20,5 +20,24 @@ public class AddItem implements Manageable{
 
         
     }
+
+    @Override
+    public void displayAll() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'displayAll'");
+    }
+
+    @Override
+    public void saveToFile() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'saveToFile'");
+    }
+
+    @Override
+    public void loadFromFile() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'loadFromFile'");
+    }
+
     
 }
