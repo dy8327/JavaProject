@@ -77,10 +77,10 @@ public class Book implements Manageable{
         try {
             reader = new BufferedReader(new FileReader(
                     "C:/JavaProject/project/src/Java_Project_0421/Book.txt"));
-            int x = 0;
-            while ((x = reader.read()) != -1) {
-                System.out.print((char) x);
-            }
+           // int x = 0;
+           // while ((x = reader.read()) != -1) {
+                //System.out.print((char) x);
+         //   }
             System.out.println();
         } catch (IOException e) {
             e.printStackTrace();
