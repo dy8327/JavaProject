@@ -15,7 +15,11 @@ public class Book implements Manageable{
  //  public String getBookid;
    // void setBook(int bookid, String title, String author){this.bookid=bookid; this.title=title; this.author=author;}
    // int getBookid(){ return bookid;}
-
+    public Book(String id, String title, String author){
+        this.id = id;
+        this.title = title;
+        this.author = author;
+    }
     @Override
     public void addItem(){
         Scanner scin = new Scanner(System.in);
